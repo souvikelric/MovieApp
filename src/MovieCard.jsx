@@ -8,7 +8,7 @@ export default function MovieCard({movie1}) {
       <p>{movie1.Year}</p>
     </div>
     <div>
-      <img
+      <img  
         src={
           movie1.Poster !== "N/A"
             ? movie1.Poster
